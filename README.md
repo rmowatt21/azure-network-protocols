@@ -88,7 +88,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
  3.) Open wireshark and filter for ICMP traffic only.
  
  <p>
-<img src="https://imgur.com/3fQXRcw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/RrtChUe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
@@ -100,7 +100,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
  
 <p>
-<img src="https://imgur.com/zmJzyne.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/pp4eZdK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
