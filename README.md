@@ -107,7 +107,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
  In either CMD or Powershell ping www.google.com and observe the traffic in wireshark.
  
 5.) We then are going to initiate a non-stop ping from our Windows 10 VM to our Ubuntu VM.
- Open the Network Security Group of our Ubuntu machine and disable incoming (inbound) ICMP traffic.
+ 
+6.) Open the Network Security Group of our Ubuntu machine and disable incoming (inbound) ICMP traffic.
  
  <p>
 <img src="https://imgur.com/zmJzyne.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
