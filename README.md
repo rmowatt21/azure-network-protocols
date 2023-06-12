@@ -75,8 +75,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   The networking should automatically give us the virtual network from VM1 as well as the subnet. 
   
 <p>
-<img src="https://imgur.com/3fQXRcw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/3fQXRcw.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+ 
+ Click review and create, and it will create our second VM.
+ 
   
   
