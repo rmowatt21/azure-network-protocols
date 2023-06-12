@@ -108,12 +108,24 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
  
 5.) We then are going to initiate a non-stop ping from our Windows 10 VM to our Ubuntu VM.
  
-6.) Open the Network Security Group of our Ubuntu machine and disable incoming (inbound) ICMP traffic.
+6.) Open the Network Security Group of our Ubuntu machine and disable incoming (inbound) ICMP traffic. To disable incoming ICMP traffic click "Add" new rule and copy everything exactly from the picture. Once that is done you can create the rule and it will create automatically and show up as a new rule.
  
  <p>
-<img src="https://imgur.com/zmJzyne.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/r3dH3Yy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+ 
+<p>
+<img src="https://imgur.com/qiSIrsX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+ Now that we have disabled incoming ICMP traffic from VM2 if we go back to VM1 you can see the ping request is timing out. 
+ 
+ 
+ 
+ 
+ 
  
  
  
