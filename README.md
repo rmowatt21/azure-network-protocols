@@ -75,11 +75,54 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   The networking should automatically give us the virtual network from VM1 as well as the subnet. 
   
 <p>
-<img src="https://imgur.com/3fQXRcw.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/3fQXRcw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  
  Click review and create, and it will create our second VM.
+ 
+ 2.) Now that we have both virtual machines up and running we are going to connect to our Windows 10 vm using the remote desktop connection app. Once we are connected we are going to go to our browser and download and install Wireshark.
+ 
+ "Wireshark is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education." 
+ 
+ 3.) Open wireshark and filter for ICMP traffic only.
+ 
+ <p>
+<img src="https://imgur.com/3fQXRcw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+ 4.) We are going to want to retrieve the private IP address of our Ubuntu VM and then attempt to ping it from within our Windows 10 VM using wireshark. To ping the private IP address of the Ubuntu machine open CMD or Powershell on the Windows machine and type: ping 10.0.0.5 or whatever the private IP address is for your Ubuntu machine.
+ 
+<p>
+<img src="https://imgur.com/zmJzyne.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+<p>
+<img src="https://imgur.com/zmJzyne.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+ In either CMD or Powershell ping www.google.com and observe the traffic in wireshark.
+ 
+5.) We then are going to initiate a non-stop ping from our Windows 10 VM to our Ubuntu VM.
+ Open the Network Security Group of our Ubuntu machine and disable incoming (inbound) ICMP traffic.
+ 
+ <p>
+<img src="https://imgur.com/zmJzyne.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
   
   
